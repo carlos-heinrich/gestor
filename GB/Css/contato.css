@@ -1,0 +1,229 @@
+body{
+  background-color:#1f9ea8;
+margin:0%;
+
+}
+.comeco {
+  background-color: #001e27;
+  height: 180px;
+  position: relative;
+margin-left:-1px;
+}
+
+.titulo {
+  color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 370px;
+    top: 30px;
+}
+
+.logo {
+  position: absolute;
+  top: -10px;  /* Ajuste conforme necessário */
+  left: 10px;  /* Ajuste conforme necessário */
+  width: 200px;
+}
+
+
+.rodape{
+  margin-top: 50px;
+  background-color: #001e27; 
+  padding: 40px 0; 
+  margin-left:-8px;
+  text-align: center; 
+  margin:0;
+ 
+  
+  }
+
+.entra {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 15px;
+  display: inline-block;
+  margin: 11px 400px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Adicionando uma transição suave para o tamanho */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.entra:hover {
+  transform: scale(1.1); /* Aumentando o tamanho em 10% ao passar o mouse */
+}
+.chat-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chat-box p {
+  margin: 5px 0;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chat-box p {
+  margin: 5px 0;
+}
+
+.chat-box .bot-message {
+  font-weight: bold;
+  color: #007bff; /* Cor azul */
+}
+
+.chat-box .user-message {
+  color: #007bff; /* Cor azul */
+}
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #1f9ea8;
+}
+
+.container img {
+  border-radius: 90%;
+  margin-top:5%;
+  margin-left:15%;
+}
+
+
+.texto {
+  margin-left: 8%; /* Espaço entre a imagem e o texto */
+  font-size:85%;
+  margin-top:4%;
+}
+.container2 {
+  align-items: center;
+  background-color: #1f9ea8;
+  width: 100%;
+  height: 60vh; 
+  margin-top:-5%;
+
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.quadrado {
+  width: 28%; /* Porcentagem da largura do pai */
+  height: 50%; /* Porcentagem da altura do pai */
+  background-color: white;
+  margin: 10px; /* Ajuste conforme necessário */
+  margin-top:10%;
+  margin-left:18%;
+  
+}
+
+.quadrado2 {
+  width: 28%; /* Porcentagem da largura do pai */
+  height: 50%; /* Porcentagem da altura do pai */
+  background-color: white;
+  margin: 10px; /* Ajuste conforme necessário */
+  margin-left:54%;
+  margin-top:-14.2%;
+
+}
+.imagem2 {
+ width:28%;
+  height:70%;
+  margin-top:6% ; /* Ajuste conforme necessário */
+
+}
+
+.imagem3 {
+  width: 36%; /* Defina a largura da imagem */
+  height: 50%; /* Mantenha a proporção */
+  margin-top: 10%; /* Ajuste conforme necessário */
+  
+}
+.texto2 {
+font-size:110%;
+font-weight: bold;
+margin-left:31%;
+margin-top:-33%;
+}
+
+.texto3 {
+  font-size:110%;
+  font-weight: bold;
+  margin-left:45%;
+  margin-top:-31%;
+}
+
+
+@media screen and (max-width: 980px) {
+
+  /* Oculta o texto do banner em telas menores que 768px */
+  .titulo {
+      display: none;
+  }
+
+  .logo {
+      margin-left: 35%;
+  }
+
+  .rodape {
+      margin-top:25%;
+      display: flex;
+      justify-content: center;
+    }
+
+  .entra {
+      justify-content: center;
+  }
+  .quadrado{
+    width: 48%;
+    margin-left:30%;
+  }
+  .quadrado2 {
+    margin-top:9%;
+    width: 48%;
+    margin-left:30%;
+  }
+  h1 {
+    margin-left:-7%;
+  }
+  .container img {
+    margin-left:5%;
+  }
+
+}
+
+@media screen and (max-width: 796px) {
+
+}

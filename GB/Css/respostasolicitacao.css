@@ -1,0 +1,141 @@
+body{
+    background-color:#d6d6d6;
+  
+  
+  }
+  
+  .centro{
+    position: absolute;
+    margin-top: -430px;
+    margin-left: 350px;
+    width: 300px;
+    
+  }
+  
+  .carta{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 350px;
+    width: 100px;
+    
+  }
+  
+  .fone{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 850px;
+    width: 100px;
+    
+  }
+  
+  .comeco {
+    background-color: #001e27;
+    width: 100%; 
+    height: 180px;
+    margin-left: -8px;
+    margin-top: -9px;
+    position: absolute;
+  }
+  .titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 370px;
+    top: 30px;
+  }
+  .dois {
+    text-align: end;
+    margin-top: 110px;
+  }
+  
+  .logo{
+    position: absolute;
+    top: -22%;
+    width: 200px;
+    top: -10px;
+  }
+
+  .retangulo {
+    width: 13rem;
+    height: 46.1rem;
+    background:#001e27;
+ 
+  }
+
+  .texto-centralizado {
+    position: absolute;
+    top: 120%; 
+    left: 20%; 
+    font-weight: bold;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 24px; 
+  }
+
+  /* Estilos para centralizar a tabela */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 350px;
+    position: absolute;
+}
+
+/* Estilos para a tabela */
+.table {
+    width:1000px; /* Largura da tabela aumentada - ajuste conforme necessário */
+    max-width: 1200px; /* Definindo uma largura máxima para evitar que a tabela fique muito larga */
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+
+/* Estilizando células da tabela */
+.table tbody td {
+    color: #6c757d;
+}
+
+/* Estilizando célula "Criado em" */
+.table tbody td:last-child {
+    font-weight: bold;
+}
+.div{
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: -50vh;
+  margin-left: 30vh;
+  color: black; 
+padding: 10px;
+border: 1px solid #adadad;
+background-color: #f1f1f1;
+border-radius: 1vh; 
+}
+

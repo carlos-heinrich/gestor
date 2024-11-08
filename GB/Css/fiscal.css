@@ -1,0 +1,95 @@
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: separate; /* Separação das bordas */
+    border-spacing: 0; /* Espaçamento zero entre as células */
+    border: 2px solid; /* Borda inicial */
+    border-radius: 20px; /* Borda arredondada */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa a borda */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    animation: colorChange 8s infinite linear; /* Animação de mudança de cor */
+}
+
+/* Animação de mudança de cor */
+@keyframes colorChange {
+    0% {
+        border-color: rgb(255, 0, 0); /* Vermelho */
+    }
+    25% {
+        border-color: rgb(0, 255, 0); /* Verde */
+    }
+    50% {
+        border-color: rgb(0, 0, 255); /* Azul */
+    }
+    75% {
+        border-color: rgb(255, 255, 0); /* Amarelo */
+    }
+    100% {
+        border-color: rgb(255, 0, 255); /* Magenta */
+    }
+}
+
+/* Estilo para os cabeçalhos das colunas */
+th {
+    background: linear-gradient(to bottom, #13d0d3, #45a049); /* Gradiente verde */
+    color: #000000; /* Cor do texto branco */
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto ao centro */
+    border: none; /* Sem borda */
+}
+
+/* Estilo para as células da tabela */
+td {
+    padding: 12px; /* Espaçamento interno */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Borda inferior suave */
+    background-color: #f9f9f9; /* Cor de fundo cinza claro */
+}
+
+/* Estilo para linhas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo cinza mais claro */
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none; /* Sem decoração de texto */
+    color: #333; /* Cor do texto */
+    transition: color 0.3s; /* Transição suave de cor */
+}
+
+/* Estilo para links quando o mouse passa por cima */
+a:hover {
+    color: #f00; /* Cor do texto alterada ao passar o mouse */
+}
+
+
+body{
+    background-color: #333;
+}
+.logorodape{
+    position: absolute;
+    width: 320px;
+    left: 600px;
+    top: 370px;
+
+}
+h1{
+    color: white;
+}.entra {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 11px 680px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 320px;
+  }
+  
+  .entra:hover {
+    transform: scale(1.1); /* Aumentando o tamanho em 10% ao passar o mouse */
+  }

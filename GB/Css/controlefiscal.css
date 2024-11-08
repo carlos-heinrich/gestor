@@ -1,0 +1,186 @@
+
+body {
+    background-color: #1f9ea8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .comeco {
+    background-color: #001e27;
+    height: 180px;
+    position: relative;
+  margin-left:-0px;
+  }
+
+.titulo {
+    color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      position: absolute;
+      left: 370px;
+      top: 30px;
+  }
+.h2center {
+    color: black;
+    font-weight: bolder;
+    font-size:34px;
+  }
+  .logo {
+    position: absolute;
+    top: -10px;  /* Ajuste conforme necessário */
+    left: 10px;  /* Ajuste conforme necessário */
+    width: 200px;
+  }
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+}
+
+.form-veiculos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-container,
+.veiculos-container {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="file"],
+form input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #001e27;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.veiculo {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.veiculo img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.actions a {
+    color: #fff;
+    background-color: #001e27;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.actions a:hover {
+    background-color: #0056b3;
+}
+
+.entra {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 11px 150px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Adicionando uma transição suave para o tamanho */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .entra:hover {
+    transform: scale(1.1); /* Aumentando o tamanho em 10% ao passar o mouse */
+  }
+
+
+  .rodape {
+    margin-top: 30%;
+    background-color: #001e27;
+    padding: 40px 0;
+    text-align: center;
+}
+   
+    /* Estilos para os botões */
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #1F9EA7; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        text-decoration: none;
+        border-radius: 5px; /* Borda arredondada */
+        transition: background-color 0.3s; /* Transição suave */
+    }
+    
+    .button:hover {
+        background-color: #6a11cb; /* Cor de fundo ao passar o mouse */
+    }
+    @media screen and (max-width: 796px) {
+        /* Oculta o texto do banner em telas menores que 768px */
+        .titulo {
+        display: none;
+        }
+        .logo{
+            margin-left:35%;
+            margin-top:2%;
+        }
+        .comeco {
+        margin-left:-1%;
+        width: 102%;
+        margin-top:-2%;
+        }
+        .rodape {
+            width: 103%;
+            margin-left:-2%;
+        }
+}
+a{
+    text-decoration: none;
+}

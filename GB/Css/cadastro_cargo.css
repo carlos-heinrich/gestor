@@ -1,0 +1,79 @@
+body{
+    background-color: #1f9ea8;
+
+}
+.background-container {
+    background-color: #cfcece; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    max-width: 600px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    margin-top: 10px;
+    margin: 1 auto; /* Centralizar a tabela */
+    animation: changeColor 5s infinite; /* Animar a troca de cor a cada 5 segundos */
+    
+
+}
+
+.container {
+    text-align: center; /* Centralizar texto */
+}
+
+.logo {
+    display: block; /* Faz a imagem um elemento de bloco */
+    margin: 0 auto 20px; /* Centralizar horizontalmente e adicionar margem na parte inferior */
+}
+
+form {
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+table {
+    margin: 0 auto; /* Centralizar a tabela */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Margem inferior */
+    border-radius: 5px; /* Borda arredondada */
+    border: 1px solid #ccc; /* Borda sólida com cor */
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+}
+
+input[type="submit"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    cursor: pointer; /* Alterar cursor ao passar */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+h3 {
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+a {
+    text-decoration: none; /* Sem sublinhado */
+    color: #007bff; /* Cor do link */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+@keyframes changeColor {
+    0% { box-shadow: 0 0 220px red; }
+    33% { box-shadow: 0 0 20px green; }
+    66% { box-shadow: 0 0 20px blue; }
+    100% { box-shadow: 0 0 20px red; }
+}
+
